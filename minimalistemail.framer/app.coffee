@@ -62,16 +62,11 @@ navigation.onSwipeLeft (event, layer) ->
 	starred.animate "b"	
 	recent.animate "b"
 	dot.animate "b"
+	
 navigation.onSwipeRight (event, layer) ->
 	starred.animate "a"	
 	recent.animate "a"
 	dot.animate "a" 
-	
-profile = new Layer
-	y: 167
-	width: 750
-	height: 160*8
-	backgroundColor: "#f3f3f3"
 	
 dot = new Layer
 	borderRadius: 100
@@ -89,40 +84,94 @@ dot.states.a =
 
 
 
-
-
-
-
-
-
-layerA = new Layer
+profile = new Layer
+	y: 168
 	width: 750
-	height: 159
+	height: 160*8
+	backgroundColor: "#f3f3f3"
+
+
+
+
+profileitem = new Layer
+	y: 168
+	width: 750
+	height: 180
+	backgroundColor: "#ededed"
+
+avartar = new Layer
+	x: 20
+	y: 176
+	width:160
+	height: 160
+	borderRadius: 100
+	backgroundColor: "#ffffff"
+
+
+saved = new TextLayer
+    text: "SAVE"
+    color: "#rgba(237,17,83,1)"
+    textAlign: "right"
+    x: 560-48
+    y: 232
+    fontSize: 32
+    fontWeight:900
+    fontFamily: "helvetica neue"
+    letterSpacing: 1.5
+    opacity:1	
+
+
+
+
+
+
+
+
+
+send = new Layer
+	width: 750
+	height: 160
 	backgroundColor: "rgba(244,47,102,1)"
 	opacity: 1.00
 	y: 1175
-
-layerA.states.a =
-	backgroundColor: "rgba(244,47,102,1)"
-	opacity: 0.20
-	y: 500
-	borderRadius: 0
-	height: 834
 	
+newemail = new TextLayer
+    text: "SEND NEW EMAIL"
+    color: "#ffffff"
+    textAlign: "center"
+    width:800
+    paddingTop:1232
+    fontSize: 40
+    fontWeight:900
+    fontFamily: "helvetica neue"
+    letterSpacing: 1
 
-layerA.states.c =
-	width: 750
-	height: 159
+send.states.b =
 	backgroundColor: "rgba(244,47,102,1)"
 	opacity: 1.00
+	y: 168
+	height: 1175
+	
+send.states.a =
+	opacity: 1.00
+	backgroundColor: "rgba(244,47,102,1)"
+	height:160
 	y: 1175
 
 
-layerA.onSwipeUp (event, layer) ->
-	layerA.animate "a"	
+
+send.onSwipeUp (event, layer) ->
+	send.animate "b"	
 	
-layerA.onSwipeDown (event, layer) ->
-	layerA.animate "c"
+send.onSwipeDown (event, layer) ->
+	send.animate "a"
+
+
+
+
+
+
+	
 	
 
 

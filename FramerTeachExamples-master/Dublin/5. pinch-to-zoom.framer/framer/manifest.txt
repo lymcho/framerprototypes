@@ -1,0 +1,59 @@
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/FramerTemplate.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+app.coffee
+app.js
+framer/backups/backup-2016-06-14 15.46.21.coffee
+framer/backups/backup-2016-06-14 15.47.21.coffee
+framer/backups/backup-2016-06-14 15.48.21.coffee
+framer/backups/backup-2016-06-14 16.55.59.coffee
+framer/backups/backup-2016-06-14 16.58.59.coffee
+framer/backups/backup-2016-06-15 09.57.04.coffee
+framer/coffee-script.js
+framer/config.json
+framer/framer.generated.js
+framer/framer.init.js
+framer/framer.js
+framer/framer.js.map
+framer/framer.js.map.old
+framer/framer.js.old
+framer/framer.modules.js
+framer/images/background.png
+framer/images/cursor-active.png
+framer/images/cursor-active@2x.png
+framer/images/cursor.png
+framer/images/cursor@2x.png
+framer/images/icon-120.png
+framer/images/icon-152.png
+framer/images/icon-76.png
+framer/images/icon-arrow.png
+framer/images/icon-arrow@2x.png
+framer/images/icon-close.png
+framer/images/icon-close@2x.png
+framer/images/icon-framer.png
+framer/images/icon-framer@2x.png
+framer/images/icon-share.png
+framer/images/icon-share@2x.png
+framer/manifest.txt
+framer/mirror.css
+framer/preview.png
+framer/style.css
+framer/version
+imported/photo-scale@1x/images/Layer-iconAlbums-qkmymdfc.png
+imported/photo-scale@1x/images/Layer-iconPhotos-mey1ndle.png
+imported/photo-scale@1x/images/Layer-iconShared-ntzfqtng.png
+imported/photo-scale@1x/images/Layer-image-qkexmkfc.jpg
+imported/photo-scale@1x/images/Layer-navBar-rueyrti1.png
+imported/photo-scale@1x/images/Layer-photo-rkm3rkvd.png
+imported/photo-scale@1x/images/Layer-screen-ndy3rdi1.png
+imported/photo-scale@1x/images/Layer-statusBar-qtg2odiw.png
+imported/photo-scale@1x/images/Layer-tabBar-nkm4rdu0.png
+imported/photo-scale@1x/layers.json
+imported/photo-scale@1x/layers.json.js
+index.html
+modules/myModule.coffee
+photo-scale.sketch
